@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('../assets/HelveticaNeue.otf');
+  font-style: normal;
+  font-weight: 300;
+}
+
+
+*, html {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	scrollbar-color: blue orange;
+
+}
+
+
+
+body {
+	background-color: #ffede5;
+	background-repeat: no-repeat;
+	background-position: 70% 90%;
+	margin: 5vh 5vw 5vh 5vw;
+}
+
+
+h1 {
+	font-family: 'Poppins', sans-serif;   
+	font-size: 2em;
+	color: #864D43;
+	font-weight: 900;
+	text-align: center;
+}
+
+
+h2 {
+	font-family: 'Poppins', sans-serif;   
+	font-size: 1.5em;
+	color: #6369AC;
+	font-weight: 700; /* bold */
+	position: relative;
+	text-align: center;
+	position: fixed;
+	top: 4.5em;
+	color: black;
+	font-size: 1.25em;
+	text-align: center;
+	font-weight: lighter;
+}
+
+p {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 1.0em;
+	color: #090806;
+	font-weight: 300;
+	text-align: center;
+	position: relative;
+	top: 2em;
+}
+
+a {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: smaller;
+	color: white;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 1.25em;
+	padding-bottom: 0.5em;
+}
+
+li {
+	display: inline-block;
+	padding: 0.25em;
+	justify-content: space-between;
+}
+
+section {
+	margin-top: 10em;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+nav {
+	background-color: #6369AC;
+	position: fixed;
+	bottom: 0;
+	left: 0em;
+	right: 0em;
+}
+
+article {
+	display: flex;
+	justify-content: center;
+}
+
+div {
+	margin-top: 1em;
+	padding-top: 1em;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	overflow-x: auto;
+	background-color: #8fc0264a;
+	
+}
+
+div:nth-of-type(1){
+	margin-top: 10em;
+}
+
+
+div p:nth-of-type(1) {
+	font-family: 'Poppins';
+	font-weight: 400;
+	position: fixed;
+	left: 1.2em;
+	top: 10em;
+	background-color:  #6369AC;
+	color: white;
+}
+
+
+div p:nth-of-type(2) {
+	font-family: 'Poppins';
+	font-weight: 400;
+	position: fixed;
+	left: 1.2em;
+	top: 21.6em;
+	background-color:  #6369AC;
+	color: white;
+}
+
+div article button {
+	height: 10em;
+}
+
+.huidig {
+	border-radius: 10em;
+	border: dashed white 0.1em;
+	background: #07070772;
+	padding-bottom: 0.25em;
+	border-top-right-radius: 50em;
+	border-bottom-right-radius: 50em;
+}
+
+.startknop {
+    position: absolute;
+    left: 4em;
+    bottom: 1.5em;
+    background-color: #90C026;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    border-color: #90C026;
+    border-radius: 10em;
+}
+
+.welkomstlogo {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 65%;
+	margin-bottom: 0.5em;
+}
+
+.welkomsth2 {
+	position: fixed;
+	top: 8em;
+}
+
+
+header {
+	background-color: black;
+}
+
+header h1{
+	position: fixed;
+	font-size: 1em;
+	text-align: center;
+	width: 15em;
+	left: 6em;
+	top: 1em;
+	color: #6369AC ;
+}
+
+header a img:nth-of-type(1){
+	width: 7em;
+	position: fixed;
+	left: 1em;
+	top: 1em;
+}
+
+header img:nth-of-type(1){
+	width: 1.7em;
+	position: fixed;
+	right: 1em;
+	top: 1em;
+
+}
+
+.welkomstbrug {
+	position: fixed;
+	left: 0em;
+	bottom: 1.75em;
+	z-index: -1;
+}
+
+.welkomsttekst {
+	position: fixed;
+	top: 14.5em;
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-style: italic;
+}
+
+.durationknop {
+	margin-top: 0em;
+}
+
+
+article button {
+    background-color: #ebffe5;
+    padding: 1em;
+	margin: 1em;
+    font-family: 'Helvetica nue', sans-serif;
+	font-size: 0.8em;
+	font-weight: 900;
+    color: rgb(0, 0, 0);
+    border-color: #90C026;
+    border-radius: 50%;
+	width: 10em;
+	height: 10em;
+	cursor: pointer;
+	box-shadow: 0px 4px 8px  #090806;
+}
+
+
+.map {
+	margin-top: 10em;
+}
+
+article button:focus {
+	border-color: #6369AC;
+	border-width: 0.4em;
+	background-color:#41ec35a7;
+	color: rgb(0, 29, 0);
+	font-weight: bolder;
+	box-shadow: none;
+}
+
+p button {
+    background-color: #90C026;
+	margin-top: 1.5em;
+	width: 4em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 2em;
+    color: white;
+    border-color: #90C026;
+    border-radius: 10em;
+
+}
